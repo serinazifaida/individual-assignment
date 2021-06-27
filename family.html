@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>family</title>
+	<link rel="stylesheet" href="css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@1,900&display=swap" rel="stylesheet">
+
+<body>
+</head>
+<body>
+
+<div align="center">
+
+<h1 style="font-family: 'Vollkorn', serif;" align="center">MY BELOVED FAMILY</h1>
+
+<a href="index.html">home</a>
+<a href="biodata.html">biodata</a>
+<a href="education.html">education</a>
+<a href="family.html">family</a>
+<a href="experience.html">experience</a>
+<a href="gallery.html">gallery</a>
+
+<p>
+
+<div class="w3-container">
+  <img src="images/hello.gif" class="w3-circle" style="width:15%">
+</div>
+
+<div class="w3-panel w3-topbar w3-bottombar w3-border-aqua w3-deep-purple">
+  <div style="font-family: 'Vollkorn', serif;">
+    <p>This is my complete family. i will introduce one by one of each. Look at the picture , I am the smallest one but the fact I am the oldest one</p> 
+  </div>
+</div>
+
+<div class="w3-container">
+  <h2 style="color: #235564 ; font-family:'Vollkorn', serif;">FAMILY MEMBERS</h2>
+
+  <div class="w3-panel w3-border w3-hover-border-red">
+    <p>I have a hardworking father named Hasnon and he is the great teacher. I also have a lovely mom and she is a caring nurse. Other than that, my second siblings is HAZIQ MIRZA which is now his study at Darul Quran Kuala Selangor. Now he is 19. Then, I have two siblings girl named SERI AQILAH AIDA and SERI HUSNA AIDA and yet they still on studies at SM IMTIAZ BESUT. Lastly, my forever little sibling is MUHAMMAD LUQMAN in 9 years old and he study with my father at the same school</p>
+  </div>
+
+
+<h2 style="color:teal ; font-family: times new roman ;">Family Picture</h2>
+
+
+<div class="w3-content w3-display-container">
+
+<div class="w3-display-container mySlides">
+  <img src="images/family.jpg" style="width:100%">
+  <div class="w3-display-bottomleft w3-large w3-container w3-padding-10 w3-black">
+    2020
+  </div>
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src="images/family 2.jpg" style="width:100%">
+  <div class="w3-display-bottomright w3-large w3-container w3-padding-10 w3-black">
+    2019
+  </div>
+</div>
+
+<button class="w3-button w3-display-left w3-red" onclick="plusDivs(-1)">&#10094;</button>
+<button class="w3-button w3-display-right w3-red" onclick="plusDivs(1)">&#10095;</button>
+
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+</body>
+</div>
+
+</html>

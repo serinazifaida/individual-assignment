@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SERIAIDA</title>
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+<style>
+body, h1, h2, h3, h4, h5, h6  
+{
+  font-family: Sofia, serif;
+}
+</style>
+
+</head>
+<body>
+
+<div align="center">
+
+<h1>SERI AIDA WEBSITE</h1>
+
+<a href="index.html">home</a>
+<a href="biodata.html">Biodata</a>
+<a href="education.html">education</a>
+<a href="family.html">family</a>
+<a href="experience.html">experience</a>
+<a href="gallery.html">gallery</a> 
+
+<div class="w3-purple">
+    <p class="w3-xxlarge w3-serif"><i>"The purpose of our lives is to be happy."</i></p>
+</div>
+
+</body>
+
+<div class="w3-container w3-center w3-animate-zoom" >
+  <img src="images/me.jpg" class="w3-circle" style="width:20%">
+</div>
+
+<div class="w3-panel w3-border w3-border-purple">
+<h2 style="color:black">HI I AM SERI NURNAZIFA AIDA BT, HASNON</h2>
+<p>I am 22 years old</p>
+<p>You are please to call me AIDA</p>
+<p>I have my own business shop called SERIAIDASHOP</p>
+<p>I have an ambitious of being successful business woman one day so here is </p>
+</div>
+
+<h1 class="w3-center">MY BIG DREAM</h1>
+
+<div class="w3-content w3-section" style="max-width:800px">
+  <div class="w3-container w3-center w3-animate-right">
+  <img class="mySlides" src="images/car.jpg" class="w3-boarder" style="width:100%">
+  <img class="mySlides" src="images/dream.jpg" style="width:100%">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 3000); // Change image every 2 seconds
+}
+</script>
+
+<div class="w3-container">
+  <h2>KEEP IN TOUCH WITH ME IN</h2>
+  <span class="w3-tag w3-jumbo w3-grey">S</span>
+  <span class="w3-tag w3-jumbo W3-white">0</span>
+  <span class="w3-tag w3-jumbo w3-yellow">C</span>
+  <span class="w3-tag w3-jumbo w3-grey">I</span>
+  <span class="w3-tag w3-jumbo w3-red">A</span>
+  <span class="w3-tag w3-jumbo w3-grey">L</span>
+  <span class="w3-tag w3-jumbo w3-yellow">M</span>
+  <span class="w3-tag w3-jumbo w3-black">E</span>
+  <span class="w3-tag w3-jumbo w3-red">D</span>
+  <span class="w3-tag w3-jumbo w3-yellow">I</span>
+  <span class="w3-tag w3-jumbo w3-black">A</span> 
+</div>
+
+<div class="w3-container">
+
+<div class="w3-panel w3-padding-20">
+  <h2>DO FOLLOW MY</h2>
+<p>
+
+<a href="https://www.instagram.com/snnabh99" target="_blank"><img src="images/instagram_2-removebg-preview.png" width="65px"></a>
+<a href="https://www.facebook.com" target="_blank"><img src="images/facebook.png" width="59px"></a>
+<a href="https://www.twitter.com" target="_blank"><img src="images/Twitter baru.png" width="67px"></a>
+</div>
+
+<div class="w3-container">
+  <h1><strong>my business product</strong>
+  <div class="w3-display-container w3-hover-opacity" style="width:50%">
+   <div class="w3-padding-32 w3-red w3-circle">
+    <img src="images/mc.jpg" class="w3-circle" style="width:100%">
+    <div class="w3-display-middle w3-display-hover w3-xxlarge">
+      <button class="w3-button w3-light-blue">Mouthgasm crunchy</button>
+    </div>
+  </div>
+</div>
+
+</html>

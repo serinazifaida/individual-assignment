@@ -1,0 +1,73 @@
+body
+   {
+    	background-color: #AED6F1;
+    }
+
+a:link, a:visited
+    {
+    	color:white;
+    	background-color: #B8860B;
+        text-decoration: none;
+        padding: 15px;
+        text-align: center;
+        display: inline-block;
+        font-family: verdana;
+    }
+
+
+
+a: hover 
+    {
+    	color: red;
+    	background-color: pink;
+    	text-decoration: underline;
+    }
+
+a:active 
+    {
+    	color: green;
+    	background-color: yellow;
+    	text-decoration: underline;
+    }
+
+table, tr, tr, th 
+    {
+      border: 1px solid black;
+      border-collapse: collapse;
+      padding: 10px;
+      width: 50%;
+    }
+
+tr:nth-child(even)
+    {
+        background-color: #3d2351;
+        font-family: 'Concert One', cursive;
+
+    }
+
+tr:nth-child(odd)
+    {
+        background-color: #c581ff;
+        font-family: 'Concert One', cursive;
+    }
+
+tr:hover
+    {
+        background-color: #ff7373;
+        font-family: 'Concert One', cursive;
+    }
+
+ol
+    {
+        font-family: 'Luckiest Guy', cursive;
+    }
+
+ul
+    {
+        font-family: 'Luckiest Guy', cursive;
+    }
+p
+    {
+        font-family: 'Concert One', cursive;
+    }
+
